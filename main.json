@@ -31,7 +31,7 @@ $(document).ready(function(){
                     });
         }
 getNewQuote();
-$('.get-quote').on('click',function (event){
+$('.get-quote').on('click',function (eventt){
     event.preventDefault();
     getNewQuote();
 
